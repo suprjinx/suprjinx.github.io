@@ -1,0 +1,43 @@
+h1, h2, h3, p, a, li {
+	font-family: "Courier New", Courier, mono;
+	font-style: normal;
+	color: #ffffff;
+}
+
+h1 {	font-size: 36px;
+		font-weight: bold;
+
+}
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 18px;
+	margin-right: 0px;
+	margin-bottom: 6px;
+	margin-left: 0px;
+
+
+}
+h3 {	font-size: 18px;
+		font-weight: bold;
+		margin-top: 24px;
+		margin-right: 0px;
+		margin-bottom: 6px;
+		margin-left: 0px;
+
+}
+
+p, li { 	font-size: 14px;
+}
+
+.header {
+position:absolute; 
+left:186px; 
+top:14px; 
+width:354px; 
+height:45px; 
+z-index:1
+}
+#body {
+	padding-bottom: 50px;
+}
