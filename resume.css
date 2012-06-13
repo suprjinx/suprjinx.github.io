@@ -1,35 +1,35 @@
-h1, h2, h3, h4, p, a, li {
+h1, h2, h3, h4, p, li {
 	font-family: Arial, Helvetica, sans-serif;
 	font-style: normal;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 32px;
 }
 h1 {
 	font-size: 24pt;
 	font-weight: bold;
+	margin-left: 6px;
+	margin-bottom: 12px;
+	padding-bottom: 12px;
+
 }
 h2 {
 	font-size: 16pt;
 	font-weight: bold;
 	margin-top: 16pt;
-	margin-right: 0px;
-	margin-bottom: 6px;
-	margin-left: 0px;
+	margin-left: 6px;
 }
 h3 {
 	font-size: 14pt;
 	font-weight: bold;
-	margin-top: 12px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin-top: 10pt;
 }
 h4 {
 	font-size: 12pt;
 	font-style: italic;
 	font-weight: normal;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+
 }
 li {
 	list-style-type:square;
@@ -46,6 +46,7 @@ p#address {
 	position: relative;
 	margin-left: 60px;
 	margin-right: 60px;
+	margin-top: -20px;
 	padding: 14pt;
 }
 #header {
