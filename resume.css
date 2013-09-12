@@ -52,7 +52,3 @@ p#address {
 #header {
 	margin-top: 60px;
 }
-
-.pageBreak {
-	page-break-before: always
-}
