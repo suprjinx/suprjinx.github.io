@@ -11,33 +11,20 @@ function MM_reloadPage(init) {  //reloads the window if Nav4 resized
   else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
 }
 MM_reloadPage(true);
-
-var windowHandle = null;
-var windowProps = "width=440,height=350,scrollbars=yes,toolbar=no,location=no,menubar=no,child=no";
-function openWindow(projectName) {
-
-	url = "portfolioDetail.html?project=" + projectName;
-	if (windowHandle == null || windowHandle.closed) {
-		windowHandle = window.open(url, 'Detail', windowProps);
-	}
-	else {
-		windowHandle.location.href = url;
-		windowHandle.focus();
-	}
-		
-}
-
-
 //-->
 </script>
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body bgcolor="#993333" leftmargin="0" topmargin="0">
-<div id="header" style="position:absolute; left:186px; top:14px; width:354px; height:45px; z-index:1"> 
-  <h1>portfolio</h1>
+<body>
+<div class="header_section"> 
+<div class="header" > 
+  <h1>
+    <a href="index.html"><img src="images/old-car-small.jpg" width="176" height="120" border="0" align="absmiddle"></a>portfolio
+  </h1>
 </div>
-<div id="body" style="position:absolute; left:25px; top:136px; width:800px; height:320px; z-index:2"> 
+</div>
+<div id="body"> 
 <h3>Subversion Edge</h3>
   <p>At CollabNet, I am a principal contributor to the open-source Subversion Edge management console. Written in Groovy / Grails, the product allows for complete Subversion administration in an easy-to-use web interface. Features include backup and restore, replication, and user management.</p>
   <p>Responsibilities: Groovy Programming (Grails), Database Schema. </p>
@@ -82,7 +69,6 @@ function openWindow(projectName) {
           connected to an Access database to implement requirements for seminar 
           scheduling, role-based security, and document management.</p>
 <p>Responsibilities: Programming, Database Schema </p><img src="images/lucent400.gif" width="400" height="269" alt="Lucent Technologies " border="0"></div>
-<p><a href="index.html"><img src="images/old-car-small.jpg" width="176" height="120" border="0"></a> 
-</p>
+
 </body>
 </html>
