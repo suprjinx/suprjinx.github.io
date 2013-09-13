@@ -3,41 +3,15 @@
 <head>
 <title>superjinky.com - portfolio</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<script language="JavaScript" type="text/JavaScript">
-<!--
-function MM_reloadPage(init) {  //reloads the window if Nav4 resized
-  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
-    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
-  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
-}
-MM_reloadPage(true);
-
-var windowHandle = null;
-var windowProps = "width=440,height=350,scrollbars=yes,toolbar=no,location=no,menubar=no,child=no";
-function openWindow(projectName) {
-
-	url = "portfolioDetail.html?project=" + projectName;
-	if (windowHandle == null || windowHandle.closed) {
-		windowHandle = window.open(url, 'Detail', windowProps);
-	}
-	else {
-		windowHandle.location.href = url;
-		windowHandle.focus();
-	}
-		
-}
-
-
-//-->
-</script>
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-
-<body bgcolor="#993333" leftmargin="0" topmargin="0">
-<div id="header" style="position:absolute; left:186px; top:14px; width:354px; height:45px; z-index:1">
-  <h1>portfolio</h1>
+<body>
+<div class="header">
+  <h1>
+  <a href="index.html"><img src="images/old-car-small.jpg" width="176" height="120" border="0" align="middle"></a> 
+portfolio</h1>
 </div>
-<div id="body" style="position:absolute; left:25px; top:136px; width:800px; height:320px; z-index:2">
+<div id="body">
   <h3>TeamForge Orchestrate</h3>
   <p>At CollabNet, I served as technical lead for one of the Scrum teams which developed TeamForge Orchestrate. Written in Ruby on Rails, Orchestrate builds associations between disparate artifacts of the software development process (commits, builds, code reviews, etc).</p>
   <p>Responsibilities: Ruby Programming (Rails), Code Reviews, Documentation</p>
@@ -83,6 +57,5 @@ function openWindow(projectName) {
   <p>Responsibilities: Cold Fusion Programming, Database Schema, Consulting</p>
   <img src="images/savantium400.gif" width="400" height="289" border="0" alt="Creative Labs - Savantium">
 </div>
-<p><a href="index.html"><img src="images/old-car-small.jpg" width="176" height="120" border="0"></a> </p>
 </body>
 </html>

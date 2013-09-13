@@ -32,10 +32,18 @@ p, li {
 }
 
 body {
+	background-color:#993333;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+#body {
   padding-bottom: 50px; 
   background-color: #993333;
   margin-left: 14; 
   margin-top: 24;
+  left: 25px;
+  top: 136px;
   max-width: 800px;
 }
 
@@ -43,7 +51,9 @@ body {
 #header_index {
   position:absolute; 
   width:354px; 
-  height:45px; 
+  height:45px;
+  left: 14px;
+  top: 4px;
   z-index:2
 }
 
@@ -52,8 +62,10 @@ body {
   top:186px; 
   width:354px; 
   height:45px; 
-  z-index:2
+  z-index:2;
+  text-align:left;
 }
+
 
 #background_index {
   position:absolute; 
@@ -63,4 +75,11 @@ body {
   height:499px; 
   z-index:1
 }
+
+#contact-info {
+	position:absolute;
+	left:212px; 
+	top:150px;
+}
+
 
