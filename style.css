@@ -1,85 +1,41 @@
-h1, h2, h3, p, a, li {
-  font-family: "Courier New", Courier, mono;
-  font-style: normal;
-  color: #ffffff;
+:root {
+  --global-font-size: 15px;
+  --global-line-height: 1.4em;
+  --global-space: 10px;
+  --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+    serif;
+  --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+    serif;
+  --background-color: #000000;
+  --page-width: 1000px;
+  --font-color: #e8e9ed;
+  --invert-font-color: #222225;
+  --secondary-color: #a3abba;
+  --tertiary-color: #a3abba;
+  --primary-color: #62c4ff;
+  --error-color: #ff3c74;
+  --progress-bar-background: #3f3f44;
+  --progress-bar-fill: #62c4ff;
+  --code-bg-color: #3f3f44;
+  --input-style: solid;
+  --display-h1-decoration: none;
 }
-
-h1 {	
-  font-size: 36px;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 18px;
-  margin-right: 0px;
-  margin-bottom: 6px;
-  margin-left: 0px;
-}
-
-h3 {	
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 24px;
-  margin-right: 0px;
-  margin-bottom: 6px;
-  margin-left: 0px;
-}
-
-p, li { 	
-  font-size: 14px;
+pre {
+    border: none;
+    background-color: transparent;
+    color: #e8e9ed;
+    whitespace: nowrap;
 }
 
 body {
-	background-color:#993333;
-	margin-left: 0;
-	margin-top: 0;
+    background-image:url('images/ascii-bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-#body {
-  padding-bottom: 50px; 
-  background-color: #993333;
-  margin-left: 14; 
-  margin-top: 24;
-  left: 25px;
-  top: 136px;
-  max-width: 800px;
+p.portfolio-img {
+    width: 400px;
 }
-
-
-#header_index {
-  position:absolute; 
-  width:354px; 
-  height:45px;
-  left: 14px;
-  top: 4px;
-  z-index:2
-}
-
-#header {
-  position:absolute; 
-  top:186px; 
-  width:354px; 
-  height:45px; 
-  z-index:2;
-  text-align:left;
-}
-
-
-#background_index {
-  position:absolute; 
-  left:13px; 
-  top:30px; 
-  width:777px; 
-  height:499px; 
-  z-index:1
-}
-
-#contact-info {
-	position:absolute;
-	left:212px; 
-	top:150px;
-}
-
-
+    
